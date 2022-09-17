@@ -1,7 +1,6 @@
-<svg id='С' data-name='1' xmlns='http://www.w3.org/2000/svg' width='18.33' height='15' viewBox='0 0 18.33 15'>
+<svg id='С' data-name='1' xmlns='http://www.w3.org/2000/svg' width='18.33' height='15' viewBox='0 0 18.33 15' fill="#fff">
 <path
 	d='M16.66.5H3.32A2.5,2.5,0,0,0,.82,3V13a2.5,2.5,0,0,0,2.5,2.5H16.66a2.5,2.5,0,0,0,2.5-2.5V3A2.5,2.5,0,0,0,16.66.5Zm0,1.67a.83.83,0,0,1,.27,0L10,7.77,3.05,2.22a.83.83,0,0,1,.27,0Zm0,11.67H3.32A.83.83,0,0,1,2.49,13V3.9l7,5.58a.83.83,0,0,0,1,0l7-5.58V13A.83.83,0,0,1,16.66,13.83Z'
 	transform='translate(-0.82 -0.5)'
-	style='fill: #fff'
 ></path>
 </svg>
