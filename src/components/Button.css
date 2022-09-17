@@ -1,0 +1,8 @@
+
+.custom-transition .transition-bg {
+    width: 0%;
+    transition: width .2s ease-in;
+}
+.custom-transition:hover .transition-bg {
+    width: 100%;
+}
