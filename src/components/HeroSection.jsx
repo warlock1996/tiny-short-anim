@@ -34,7 +34,7 @@ const HeroSection = () => {
 			<section className='py-[50px] relative overflow-x-clip'>
 				<div
 					style={bgStyles}
-					className='bg-bottom w-[1600px] h-[180%] top-[-400px] left-[-850px] sm:top-[-500px] sm:left-[-800px] lg:top-[0] md:left-[0] absolute -z-[1] '
+					className='bg-bottom w-[100%] h-[180%] top-[-400px] md:top-[-600px] lg:top-[0] lg:left-[0] absolute -z-[1] '
 				></div>
 				<div className='px-10 xl:container xl:px-40 mx-auto grid grid-cols-2'>
 					<div className='col-span-2 lg:col-span-1'>

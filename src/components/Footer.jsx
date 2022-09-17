@@ -10,15 +10,15 @@ const Footer = () => {
 	return (
 		<div className='py-20 bg-dark relative overflow-hidden'>
 			<FooterWave className='absolute left-[-406px] top-[-403px] w-[2950px] h-[563px]' />
-			<div className='px-10 xl:container xl:px-40 mx-auto'>
+			<div className='px-2 xl:container xl:px-40 mx-auto'>
 				<div
-					className='relative bg-white py-16 px-16 rounded shadow shadow-[#0c383808] bg-[url("https://www.camo.ee/wp-content/themes/camo/img/footer-icon.svg")] 
+					className='relative bg-white p-6 md:py-16 md:px-16 rounded shadow shadow-[#0c383808]  md:bg-[url("https://www.camo.ee/wp-content/themes/camo/img/footer-icon.svg")] 
 					bg-no-repeat bg-right mb-[122px]'
 				>
-					<h1 className='font-bold text-left text-[36px] w-[65%] mb-7 text-primaryDarker leading-[1.2]'>
+					<h1 className='font-bold text-left text-[36px] md:w-[65%] mb-7 text-primaryDarker leading-[1.2]'>
 						Need a website or a webshop but don't have a clear vision?
 					</h1>
-					<p className='text-primaryDarker text-left text-[18px] w-[75%]  mb-12'>
+					<p className='text-primaryDarker text-left text-[18px] md:w-[75%]  mb-12'>
 						No worries, that’s fine. We are excellent at giving advice, too. Let’s join forces and create an engaging
 						concept that aligns with your business needs. Let’s make you seen and heard.
 					</p>

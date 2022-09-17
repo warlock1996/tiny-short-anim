@@ -45,10 +45,10 @@ const SkillList = (props) => {
 		<ul className='list-none p-0 m-0'>
 			{list.map((listitem, index) => (
 				<li 
-                className='flex gap-8 items-start justify-start mb-8'
+                className='flex flex-col md:flex-row gap-8 items-center md:items-start justify-start mb-8'
                 key={index}
                 >
-					<div>
+					<div className=''>
 						<img className='max-w-[150px]' src={listitem.icon} alt='' />
 					</div>
 					<div className='flex flex-col gap-2'>

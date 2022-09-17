@@ -1,0 +1,44 @@
+.swiper-wrapper {
+    padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.swiper-slide {
+	position: relative;
+}
+.swiper-slide:before {
+	position: absolute;
+	content: '“';
+	top: -20%;
+	left: 10%;
+	font-size: 9rem;
+    color: #7FA9A5;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper-slide:before {
+        top: -25%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .swiper-slide:before {
+        top: -15%;
+    }
+}
+
+.swiper-pagination {
+	bottom: 0px !important;
+}
+.swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #52b0a2;
+	opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #52b0a2;
+}
