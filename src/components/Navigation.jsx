@@ -28,7 +28,11 @@ const Navigation = () => {
 			}`}
 		>
 			<div className='mx-auto px-10 xl:container xl:px-40'>
-				<nav className='hidden md:flex items-center justify-between py-10'>
+				<nav
+					className={`hidden md:flex items-center justify-between transition-[padding] duration-[500ms] ${
+						hasScrolled ? 'py-6' : 'py-10 '
+					}`}
+				>
 					<div>
 						<Logo fill={hasScrolled ? '#0f4848' : 'white'} />
 					</div>
@@ -48,8 +52,8 @@ const Navigation = () => {
 						</Button>
 					</div>
 				</nav>
-				<nav className='md:hidden flex items-center justify-between py-10'>
-					<Menu fill={hasScrolled ? 'bg-[#0f4848]' : 'bg-white'} />
+				<nav className={`md:hidden flex items-center justify-between ${hasScrolled ? 'py-6' : 'py-10 '}`}>
+					<Menu mobile={hasScrolled} />
 					<Logo fill={hasScrolled ? '#0f4848' : 'white'} className='w-[100px] h-[12px]' />
 					<MessageIconComponent fill={hasScrolled ? '#0f4848' : '#fff'} className='w-[23px] h-[19px]' />
 				</nav>

@@ -2,6 +2,7 @@ import React from 'react'
 import ArrowDown from '../assets/icons/ArrowDown.svg'
 import Button from '../components/Button.jsx'
 import { ReactComponent as AnimationComponent } from '../assets/svgs/Animation.svg'
+import './HeroSection.css'
 
 const bgStyles = {
 	backgroundImage: "url('/imgs/bg-header.svg')",
@@ -9,6 +10,7 @@ const bgStyles = {
 }
 
 const HeroSection = () => {
+	const animationRef = React.useRef(null)
 	const arrowRef = React.useRef(null)
 	const keyframes = [
 		{
@@ -52,7 +54,7 @@ const HeroSection = () => {
 					</div>
 					<div className='col-span-2 lg:col-span-1'>
 						<div className='lg:absolute lg:w-[1000px] lg:right-[-160px] xl:w-[1200px] xl:height-[470px] xl:top-[-30px] xl:right-[-50px]'>
-							<AnimationComponent />
+							<AnimationComponent ref={animationRef} />
 						</div>
 					</div>
 				</div>

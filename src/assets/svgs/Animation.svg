@@ -326,7 +326,7 @@
 			</g>
 		</g>
 		<g mask='url(#__lottie_element_1079)' style='display: block;'>
-			<g clip-path='url(#__lottie_element_1084)' transform='matrix(1,0,0,1,0,-58)' opacity='1'>
+			<g id="leftsquares" clip-path='url(#__lottie_element_1084)' transform='matrix(1,0,0,1,0,-58)' opacity='1'>
 				<g transform='matrix(1,0,0,1,807.0415649414062,615.1784057617188)' opacity='0.3' style='display: block;'>
 					<g opacity='1' transform='matrix(1,0,0,1,0,0)'>
 						<path
@@ -384,7 +384,7 @@
 			</g>
 		</g>
 		<g mask='url(#__lottie_element_1040)' style='display: block;'>
-			<g clip-path='url(#__lottie_element_1045)' transform='matrix(1,0,0,1,0,0)' opacity='1'>
+			<g id="rightsquares" clip-path='url(#__lottie_element_1045)' transform='matrix(1,0,0,1,0,0)' opacity='1'>
 				<g transform='matrix(1,0,0,1,736.7435913085938,419.1949462890625)' opacity='1' style='display: block;'>
 					<g opacity='1' transform='matrix(1,0,0,1,0,0)'>
 						<path
@@ -1239,7 +1239,7 @@
 					</g>
 				</g>
 				<g mask='url(#__lottie_element_786)' style='display: block;'>
-					<g clip-path='url(#__lottie_element_791)' transform='matrix(1,0,0,1,0,-100.59835815429688)' opacity='1'>
+					<g id="stream" clip-path='url(#__lottie_element_791)' transform='matrix(1,0,0,1,0,-100.59835815429688)' opacity='1'>
 						<g transform='matrix(1,0,0,1,689,709)' opacity='1' style='display: block;'>
 							<g opacity='0.5' transform='matrix(1,0,0,1,0,0)'>
 								<g opacity='1' transform='matrix(1,0,0,1,0,0)'>
@@ -3491,7 +3491,7 @@
 		</g>
 		<g transform='matrix(1,0,0,1,960,540)' opacity='1' style='display: block;'>
 			<g opacity='0.15776' transform='matrix(1,0,0,1,0,0)'>
-				<g opacity='1' transform='matrix(1,0,0,1,0,0)'>
+				<g id="code" opacity='1' transform='matrix(1,0,0,1,0,0)'>
 					<path
 						fill='rgb(60,81,154)'
 						fill-opacity='1'
@@ -4883,7 +4883,8 @@
 				</g>
 			</g>
 			<g
-				transform='matrix(1.0148060321807861,0,0,1.0148060321807861,960.9803466796875,539.5203247070312)'
+				id="youtube"
+				transform='matrix(1, 0, 0 ,1, 960, 540)'
 				opacity='1'
 				style='display: block;'
 			>
